@@ -26,7 +26,7 @@ To deploy the app, you need to set the following two required environment variab
 1. `ETHERSCAN_API_KEY`: Your Etherscan API key.
 2. `MAINNET_RPC_URLS`: A comma-separated list of preferred Mainnet RPC URLs (e.g., URL1,URL2,URL3,...); The first entry is primary, else are fallbacks
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/phonktown/dao-voting-ui&env=env=ETHERSCAN_API_KEY,MAINNET_RPC_URLS&project-name=lido-voting-ui&repository-name=lido-voting-ui)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/phonktown/dao-voting-ui&env=ETHERSCAN_API_KEY,MAINNET_RPC_URLS&project-name=lido-voting-ui&repository-name=lido-voting-ui)
 
 Note: If you are a member of this GitHub organization, a Vercel "Pro" subscription plan might be required.
 
