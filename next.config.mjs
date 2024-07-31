@@ -11,9 +11,10 @@ const rpcUrls_17000 =
 
 const etherscanApiKey = process.env.ETHERSCAN_API_KEY
 
-// We had the Holesky '1700' chain as a default, but we changed it to the Mainnet to avoid direct ENV input during the Vercel deploy
-const defaultChain = process.env.DEFAULT_CHAIN || '1'
-const supportedChains = process.env.SUPPORTED_CHAINS || '1'
+const _defaultSupportedChain = !!process.env.MAINNET_RPC_URLS ? '1' : '17000'
+
+const defaultChain = process.env.DEFAULT_CHAIN || _defaultSupportedChain
+const supportedChains = process.env.SUPPORTED_CHAINS || _defaultSupportedChain
 
 const cspTrustedHosts = process.env.CSP_TRUSTED_HOSTS
 const cspReportOnly = process.env.CSP_REPORT_ONLY
