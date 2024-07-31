@@ -17,6 +17,10 @@ The required functionality includes:
 
 [More details](https://www.notion.so/Custom-voting-UI-feature-description-bde7fde42d3749a3afcbab3a56f26674)
 
+## Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fphonktown%2Fdao-voting-ui&env=ETHERSCAN_API_KEY,MAINNET_RPC_URLS&project-name=lido-voting-ui&repository-name=lido-voting-ui)
+
 ## Pre-requisites
 
 - Node.js v12+
