@@ -30,7 +30,8 @@ const cspReportOnly = process.env.CSP_REPORT_ONLY
 const cspReportUri = process.env.CSP_REPORT_URI
 
 const ipfsMode = process.env.IPFS_MODE
-const walletconnectProjectId = process.env.WALLETCONNECT_PROJECT_ID || defaultWalletconnectProjectID
+// const walletconnectProjectId = process.env.WALLETCONNECT_PROJECT_ID || defaultWalletconnectProjectID
+const walletconnectProjectId = 'd944ff3ae6bddde25af8f957eb240ac5'
 
 export default {
   basePath,
